@@ -3,7 +3,7 @@ dnspython
 requests
 pymongo
 Pyrogram
-pytz=
+pytz
 pytz-deprecation-shim
 TgCrypto
 pillow
