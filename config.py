@@ -9,8 +9,8 @@ db_url = os.environ.get("DB_URL", "mongodb+srv://fsub:fsub@cluster0.lezts3r.mong
 db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "1002117276441"))
-channel_2 = int(os.environ.get("CHANNEL_2", "1002081074200"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1002117276441"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1002081074200"))
 channel_3 = int(os.environ.get("CHANNEL_3", " -1002027152697"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1002029584090"))
 # =========================================================== #
